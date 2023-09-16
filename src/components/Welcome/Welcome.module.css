@@ -1,0 +1,23 @@
+.welcomeMessage {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 24px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.welcomeBtn {
+  border: none;
+  background-color: #A3B18A;
+}
+
+.loginLink {
+  text-decoration: none;
+  color: var(--accent-color-03);
+}
+
+.signupLink {
+  text-decoration: none;
+  color: var(--accent-color-02);
+}

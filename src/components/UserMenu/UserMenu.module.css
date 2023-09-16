@@ -1,0 +1,47 @@
+.userMenu {
+  display: flex;
+  gap: 12px;
+}
+
+.userName {
+  padding: 8px 16px;
+  font-weight: 500;
+  color: #3A5A40;
+  text-decoration: none;
+  border-bottom: 2px solid var(--secondary-color);
+  border-radius: 8px;
+  transition: color var(--hover-transition);
+}
+
+.userName:hover,
+.userName:focus {
+  color: #588157;
+}
+
+.userName.active {
+  color: #588157;
+}
+
+button {
+  padding: 5px 13px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text-main-color);
+
+  border: none;
+  border-radius: 8px;
+  background-color: var(--secondary-color);
+  border: 3px solid #A3B18A;
+
+  cursor: pointer;
+  transition: color var(--hover-transition),
+    background-color var(--hover-transition),
+    border-color var(--hover-transition);
+}
+
+button:is(:hover, :focus) {
+  color: #FED9B7;
+  background-color: #F07167;
+}

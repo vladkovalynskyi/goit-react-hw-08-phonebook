@@ -1,0 +1,22 @@
+.navList {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  list-style: none;
+}
+
+.navLink {
+  font-weight: 700;
+  color: #3A5A40;
+  text-decoration: none;
+  transition: color var(--hover-transition);
+}
+
+.navLink:hover,
+.navLink:focus {
+  color: var(--accent-color-01);
+}
+
+.navLink.active {
+  color: var(--accent-color-01);
+}
